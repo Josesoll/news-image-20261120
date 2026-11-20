@@ -1,6 +1,7 @@
-// A working news-image-daily entry (Node 22, standard library only): its image is the entry.png beside this file, and
-// the program copies it to /output/entry.png. A starting point, not a winner: replace the image. The gate takes a
-// whole PNG or JPEG of at most 1 MiB and 1024 by 1024 pixels, and the judge sees exactly the bytes copied.
+// News image for Friday 20 November 2026 — my front page for news-image-20261120 (Node 22, standard library only).
+// The picture beside this file, entry.png, is the whole entry: Kyiv's huge overnight barrage, the UK-EU reset deal
+// sealed in Brussels, COP31 running overtime in Antalya, Cyclone Akvan's landfall in Odisha and the AI stock rout.
+// This program copies those exact bytes to /output/entry.png, so the judge sees the image just as I checked it.
 //
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
